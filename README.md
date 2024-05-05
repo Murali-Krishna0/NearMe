@@ -26,159 +26,113 @@ Execute the programs and publish them.
 
 ## CODE
 ```
-map.html
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>My City</title>
-</head>
-<body>
-<h1 align="center">
-<font color="green"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Charumathi (22006878)</b></font>
-</h3>
-<center>
-<img src="/static/images/map.png" usemap="#MyCity" >
-<map name="MyCity">
-<area shape="rectangle" coords="881,200,1060,279" href="/static/html/fort.html"  title="Krishnagiri fort">
-<area shape="rectangle" coords="1104,498,1303,559" href="/static/html/residency.html" title="SV residency">
-<area shape="rectangle" coords="1095,583,1253,705" href="/static/html/hotel.html" title=" Pet hotel">
-<area shape="rectangle" coords="912,535,1106,604" href="/static/html/hospital.html" title=" Nanda hospital">
-<area shape="rectangle" coords="649,303,837,423" href="/static/html/society.html" title="Sports society">
-</map>
-</center>
-</body>
-</html>
+map1.html
 
-fort.html
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title></title>
+        <title>Map</title>
     </head>
-    <body bgcolor="cyan">
-    <h1 align="center">
-    <font color="black"><b>Krishnagiri</b></font>
-    </h1>
-    <h3 align="center">
-    <font color="purple"><b>krishnagiri fort</b></font>
-    </h3>
-    <hr size="3" color="white">
-    <p align="justify">
-    <font face="Georgia" size="5">
-    1)After the death of Shahji, his younger son Vyankoji (Ekoji) became the ruler.<br>
-    2)Krishnagiri Fort is one of the strongest forts in the Krishnagiri district.<br>
-    3)It is now one of the monuments protected by the Archaeological Survey of India.</font>
-    </p>
+    <body>
+        <h1 align="center">
+            <font color="red"><b>Poonamallee</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="blue"><b>Murali Krishna S (212223230129)</b></font>
+        </h3>
+        <center>
+            <img src="c:\Users\admin\Pictures\Screenshots\Screenshot 2024-05-05 102557.png" usemap="#image-map">
+           
+
+<map name="image-map">
+    <area target="" alt="Schneider Electric" title="Schneider Electric" href="se.html" coords="13.058871645829367, 80.10387165113505" shape="rect">
+    <area target="" alt="Doosan" title="Doosan" href="d.html" coords="13.061868386231902, 80.10914537136644" shape="circle">
+    <area target="" alt="HITSS group of companies" title="HITSS group of companies" href="hgc.html" coords="13.043503667652688, 80.12167457790896" shape="circle">
+        </center>  
     </body>
 </html>
 
-residency.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title> SV Residency</title>
-</head>
-<body bgcolor="pink">
-<h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>SV Residency</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Georgia" size="5">
-1)Sri Venkateswara Residency is a reasonable choice for travellers looking for a budget accomodation in Krishnagiri<br>
-2) It is located in Krishnagiri.<br>
-3) Book your Krishnagiri stay at Sri Venkateswara Residency with best prices only on MakeMyTrip.com.</font>
-</p>
-</body>
+
+
+se.html
+
+<html>
+    <head>
+        <title>Map</title>
+    </head>
+    <body bgcolor="purple">
+        <h1 align="center">
+            <font color="cyan"><b>Poonamallee</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="lime"></b>Schneider Electric</font>
+        </h3>
+        <hr size="3" color="red">
+        <p align="justify">
+            <font face="Georgia" size="5" color="white">
+                We drive digital transformation by integrating world-leading process and energy technologies, end-point to cloud connecting products, controls, software and services, across the entire lifecycle, enabling integrated company management, for homes, buildings, data centres, infrastructure and industries.
+
+                We are the most local of global companies. We are advocates of open standards and partnership ecosystems that are passionate about our shared Meaningful Purpose, Inclusive and Empowered values.
+            </font>
+        </p>
+    </body>
 </html>
 
-hotel.html
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Pet hotel</title>
-</head>
-<body bgcolor="green">
-<h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Pet hotel</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Arial" size="5">
-   1)A pet boarding facility welcomes your pet in safety and comfort while you're away<br>
-   2)There are various types of accommodations available, depending on your pet's personality.<br>
-   3)Individual or group areas, small enclosures or even luxury suites, the goal is to make your furry friend feel at home.</font>
-</p>
-</body>
+
+<html>
+    <head>
+        <title>Map</title>
+    </head>
+    <body bgcolor="purple">
+        <h1 align="center">
+            <font color="cyan"><b>Poonamallee</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="lime"></b>Doosan</font>
+        </h3>
+        <hr size="3" color="red">
+        <p align="justify">
+            <font face="Georgia" size="5" color="white">
+                Doosan competes and thrives in both domestic and global markets.
+                From large-scale power plants that generate electricity in India to desalination plants that supply clean water
+                to millions of people in the Middle East, construction machines with unrivaled leading position in the North American market,
+                and energy storage systems and fuel cells that show exponential growth in demand,
+                Doosan’s advanced technologies enhance the value of human life for everyone in the world.
+            </font>
+        </p>
+    </body>
 </html>
 
-hospital.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Nanda Hospital</title>
-</head>
-<body bgcolor="gray">
-<h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Nanda Hospital</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Tahoma" size="5">
-1)Here ICU has centralized oxygen supply, ventilators and high-technology life saving equipment.<br>
-2)Our Operation Theatre Complex is equipped with the state-of-art Phillips C-arm Fluroscope. <br>
-3)This enables us to perform spinal, brain and complex ortho surgeries. The 3-Chip Laproscope enables us to do micro-invasive, pin-hole surgeries.</font>
- </p>
-</body>
-</html>
+hgc.html
 
-society.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Sport society</title>
-</head>
-<body bgcolor="green">
-<h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Sport society</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Courier New" size="5">
-    1)Krishnagiri Sport's Development Society in Krishnagiri is one of the leading businesses in the Sports Clubs.<br>
-    2) Krishnagiri HO has a wide range of products and / or services to cater to the varied requirements of their customers.<br>
-    3)215 were here. Stadium, Arena & Sports Venue.</font>
-</p>
-</body>
+<html>
+    <head>
+        <title>Map</title>
+    </head>
+    <body bgcolor="orange">
+        <h1 align="center">
+            <font color="cyan"><b>Poonamallee</b></font>
+        </h1>
+        <h3 align="center">
+            <font color="red"><b></b>HITSS group of companies</font>
+        </h3>
+        <hr size="3" color="red">
+        <p align="justify">
+            <font face="Georgia" size="5" color="black">
+                The HITSS GROUP of companies was established in 2014, in a span of almost 7 years, the company has grown and diversified and is today a name that commands recognitions and respect in the Domestic Market.
+                HITSS Group of Companies is one among the promising industry in the Plastic Injection Moulding, Spray Painting, and Product Assembly Manufacturer. It caters with a strong presence in segments of Automobile, Electrical and Electronic, Engineering products and Home appliances.
+            </font>
+        </p>
+    </body>
 </html>
-
 ```
 
 
 ## OUTPUT
-![image](https://github.com/Murali-Krishna0/NearMe/assets/149054535/19f89d81-9a2f-4b24-bc00-5206dda76e30)
-![image](https://github.com/Murali-Krishna0/NearMe/assets/149054535/efa93159-9ced-401b-abaa-84f765874098)
-![image](https://github.com/Murali-Krishna0/NearMe/assets/149054535/e6fc9b13-d4f1-4cc7-ab3a-f89bfe0ca252)
-![image](https://github.com/Murali-Krishna0/NearMe/assets/149054535/ab2fcbf6-0cd7-43d2-9741-88e7cb8b0934)
-![image](https://github.com/Murali-Krishna0/NearMe/assets/149054535/a4ac227a-29ed-414e-84a1-8d04ef50dbac)
-![image](https://github.com/Murali-Krishna0/NearMe/assets/149054535/44bcf60d-5c9f-466e-8d25-02d90251a6ca)
-![image](https://github.com/Murali-Krishna0/NearMe/assets/149054535/f4943c39-70bb-42b9-86a8-f99647501028)
+![Screenshot 2024-05-05 104111](https://github.com/Murali-Krishna0/NearMe/assets/149054535/5f55c378-5fb3-4ca2-b5f0-2b17c601f220)
+![Screenshot 2024-05-05 104125](https://github.com/Murali-Krishna0/NearMe/assets/149054535/64b16473-b628-4c5b-a673-9d12723c4d48)
+![Screenshot 2024-05-05 104137](https://github.com/Murali-Krishna0/NearMe/assets/149054535/9f12d111-47b4-42d5-add0-e300b1514c3a)
+![Screenshot 2024-05-05 104145](https://github.com/Murali-Krishna0/NearMe/assets/149054535/ec5b5d36-16ac-4107-9b9e-e72ad102e6c1)
 
 
 
